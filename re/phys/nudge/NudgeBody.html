@@ -296,6 +296,11 @@ $('#symbolSearchPane').show();</script>
 			<ul class="tree-view">
 				<li>
 					<div class="module ">
+						<a href="../../../re/phys/collider.html">collider</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
 						<a href="../../../re/phys/kin2d.html">kin2d</a>
 					</div>
 				</li>
@@ -334,6 +339,11 @@ $('#symbolSearchPane').show();</script>
 				<li>
 					<div class="module ">
 						<a href="../../../re/util/cache.html">cache</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../re/util/dual_map.html">dual_map</a>
 					</div>
 				</li>
 				<li>
@@ -388,13 +398,13 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Class NudgeBody</h1><p></p>
+			<h1>Class NudgeBody</h1><p>represents a physics body that uses the nudge physics system
+</p>
 			<div class="prototype">
 				<code class="lang-d">
 					<div class="single-prototype">
 			<span class="kwd">class</span> <span class="typ">NudgeBody</span>
 			<br>&nbsp;&nbsp;: <a href="../../../re/ecs/component/Component.html"><span class="typ">Component</span></a>
-			<br>&nbsp;&nbsp;, <a href="../../../re/ecs/updatable/Updatable.html"><span class="typ">Updatable</span></a>
 			<span class="pun">;</span>
 					</div>
 				</code>
@@ -408,9 +418,10 @@ $('#symbolSearchPane').show();</script>
 					</tr>
 					<tr>
 						<td>
-							<a href="../../../re/phys/nudge/NudgeBody.nudge_body_id.html" class="public"><code>nudge_body_id</code></a>
+							<a href="../../../re/phys/nudge/NudgeBody.physics_synced.html" class="public"><code>physics_synced</code></a>
 						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">uint</span></code></td><td></td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">bool</span></code></td><td>whether this body is currently in sync with the physics system
+</td>
 					</tr>
 					<tr>
 						<td>
@@ -426,6 +437,48 @@ $('#symbolSearchPane').show();</script>
 					<col class="caption"/>
 					<tr>
 						<th>Name</th><th>Type</th><th>Description</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeBody.inertia.html" class="public property"><code>inertia</code></a><span class="tableEntryAnnotation">[get]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>gets the body's moment of inertia
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeBody.inertia.html" class="public property"><code>inertia</code></a><span class="tableEntryAnnotation">[set]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>sets the body's moment of inertia
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeBody.is_static.html" class="public property"><code>is_static</code></a><span class="tableEntryAnnotation">[get]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">bool</span></code></td><td>gets whether the body is static
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeBody.is_static.html" class="public property"><code>is_static</code></a><span class="tableEntryAnnotation">[set]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">bool</span></code></td><td>sets whether the body is static
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeBody.mass.html" class="public property"><code>mass</code></a><span class="tableEntryAnnotation">[get]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>gets the body's mass
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeBody.mass.html" class="public property"><code>mass</code></a><span class="tableEntryAnnotation">[set]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>sets the body's mass
+</td>
 					</tr>
 					<tr>
 						<td>
@@ -464,12 +517,13 @@ $('#symbolSearchPane').show();</script>
 					</tr>
 					<tr>
 						<td>
-							<a href="../../../re/phys/nudge/NudgeBody.update.html" class="public">
-								<code>update</code>
+							<a href="../../../re/phys/nudge/NudgeBody.sync_colliders.html" class="public">
+								<code>sync_colliders</code>
 							</a>
 							<span class="tableEntryAnnotation">()</span>
 						</td>
-						<td></td>
+						<td>used to notify the physics engine to update colliders if they have changed
+</td>
 					</tr>
 				</table>
 			</section>

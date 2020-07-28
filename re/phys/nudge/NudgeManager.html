@@ -296,6 +296,11 @@ $('#symbolSearchPane').show();</script>
 			<ul class="tree-view">
 				<li>
 					<div class="module ">
+						<a href="../../../re/phys/collider.html">collider</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
 						<a href="../../../re/phys/kin2d.html">kin2d</a>
 					</div>
 				</li>
@@ -334,6 +339,11 @@ $('#symbolSearchPane').show();</script>
 				<li>
 					<div class="module ">
 						<a href="../../../re/util/cache.html">cache</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../re/util/dual_map.html">dual_map</a>
 					</div>
 				</li>
 				<li>
@@ -400,6 +410,20 @@ $('#symbolSearchPane').show();</script>
 				</code>
 			</div>
 			
+			<section><h2>Properties</h2>
+				<table>
+					<col class="caption"/>
+					<tr>
+						<th>Name</th><th>Type</th><th>Description</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeManager.body_count.html" class="public property"><code>body_count</code></a><span class="tableEntryAnnotation">[get]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">ulong</span></code></td><td></td>
+					</tr>
+				</table>
+			</section>
 			<section><h2>Methods</h2>
 				<table>
 					<col class="caption"/>
@@ -458,21 +482,33 @@ $('#symbolSearchPane').show();</script>
 					</tr>
 					<tr>
 						<td>
+							<a href="../../../re/phys/nudge/NudgeManager.refresh.html" class="public">
+								<code>refresh</code>
+							</a>
+							<span class="tableEntryAnnotation">(body_comp)</span>
+						</td>
+						<td>used to sync a body's properties with the physics system when they change
+</td>
+					</tr>
+					<tr>
+						<td>
 							<a href="../../../re/phys/nudge/NudgeManager.register.html" class="public">
 								<code>register</code>
 							</a>
-							<span class="tableEntryAnnotation">(body)</span>
+							<span class="tableEntryAnnotation">(body_comp)</span>
 						</td>
-						<td></td>
+						<td>registers a body
+</td>
 					</tr>
 					<tr>
 						<td>
 							<a href="../../../re/phys/nudge/NudgeManager.unregister.html" class="public">
 								<code>unregister</code>
 							</a>
-							<span class="tableEntryAnnotation">(body)</span>
+							<span class="tableEntryAnnotation">(body_comp)</span>
 						</td>
-						<td></td>
+						<td>unregisters a body
+</td>
 					</tr>
 					<tr>
 						<td>
@@ -482,6 +518,23 @@ $('#symbolSearchPane').show();</script>
 							<span class="tableEntryAnnotation">()</span>
 						</td>
 						<td>updates this manager
+</td>
+					</tr>
+				</table>
+			</section>
+			<section><h2>Inner classes</h2>
+				<table>
+					<col class="caption"/>
+					<tr>
+						<th>Name</th><th>Description</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/phys/nudge/NudgeManager.ColliderRefs.html" class="public">
+								<code>ColliderRefs</code>
+							</a>
+						</td>
+						<td>holds the list of indices that point to colliders owned by a certain body
 </td>
 					</tr>
 				</table>

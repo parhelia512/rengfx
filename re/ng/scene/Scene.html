@@ -296,6 +296,11 @@ $('#symbolSearchPane').show();</script>
 			<ul class="tree-view">
 				<li>
 					<div class="module ">
+						<a href="../../../re/phys/collider.html">collider</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
 						<a href="../../../re/phys/kin2d.html">kin2d</a>
 					</div>
 				</li>
@@ -334,6 +339,11 @@ $('#symbolSearchPane').show();</script>
 				<li>
 					<div class="module ">
 						<a href="../../../re/util/cache.html">cache</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../re/util/dual_map.html">dual_map</a>
 					</div>
 				</li>
 				<li>
@@ -695,7 +705,8 @@ $('#symbolSearchPane').show();</script>
 </span><span class="kwd">assert</span><span class="pun">(</span><span class="pln">game<wbr/></span><span class="pun">.</span><span class="pln">primary_scene </span><span class="pun">== </span><span class="pln">my_scene</span><span class="pun">, </span><span class="str">"primary scene does not match loaded scene"</span><span class="pun">);
 
 </span><span class="com">// make sure components worked
-</span><span class="kwd">assert</span><span class="pun">(</span><span class="pln">my_scene<wbr/></span><span class="pun">.</span><span class="pln">get_entity</span><span class="pun">(</span><span class="str">"apple"</span><span class="pun">)<wbr/>.</span><span class="pln">get_component</span><span class="pun">!(</span><span class="typ">TestScene<wbr/></span><span class="pun">.</span><span class="typ">Plant</span><span class="pun">)()<wbr/>.</span><span class="pln">height </span><span class="pun">&gt; </span><span class="lit">0</span><span class="pun">, </span><span class="str">"test Updatable was not updated"</span><span class="pun">);
+</span><span class="kwd">assert</span><span class="pun">(</span><span class="pln">my_scene<wbr/></span><span class="pun">.</span><span class="pln">get_entity</span><span class="pun">(</span><span class="str">"apple"</span><span class="pun">)<wbr/>.</span><span class="pln">get_component</span><span class="pun">!(</span><span class="typ">TestScene<wbr/></span><span class="pun">.</span><span class="typ">Plant</span><span class="pun">)()
+        <wbr/>.</span><span class="pln">height </span><span class="pun">&gt; </span><span class="lit">0</span><span class="pun">, </span><span class="str">"test Updatable was not updated"</span><span class="pun">);
 
 </span><span class="pln">game<wbr/></span><span class="pun">.</span><span class="pln">destroy</span><span class="pun">(); </span><span class="com">// clean up
 
