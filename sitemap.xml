@@ -478,7 +478,6 @@
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.create_entity.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.ecs.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.end.html</loc></url>
-<url><loc>http://127.0.0.1/re/ng/scene/Scene.filter_mode.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.get_entity.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.get_manager.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.managers.html</loc></url>
@@ -511,7 +510,6 @@
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.create_entity.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.ecs.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.end.html</loc></url>
-<url><loc>http://127.0.0.1/re/ng/scene/Scene.filter_mode.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.get_entity.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.get_manager.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.managers.html</loc></url>
@@ -540,7 +538,6 @@
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.create_entity.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.ecs.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.end.html</loc></url>
-<url><loc>http://127.0.0.1/re/ng/scene/Scene.filter_mode.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.get_entity.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.get_manager.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.managers.html</loc></url>
@@ -762,6 +759,7 @@
 <url><loc>http://127.0.0.1/re/core/Core.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.content.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.debug_render.html</loc></url>
+<url><loc>http://127.0.0.1/re/core/Core.default_filter_mode.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.default_resolution.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.destroy.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.exit.html</loc></url>
