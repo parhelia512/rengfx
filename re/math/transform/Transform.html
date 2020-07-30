@@ -190,12 +190,17 @@ $('#symbolSearchPane').show();</script>
 			<ul class="tree-view">
 				<li>
 					<div class="module ">
-						<a href="../../../re/math/raytypes.html">raytypes</a>
+						<a href="../../../re/math/bounds.html">bounds</a>
 					</div>
 				</li>
 				<li>
 					<div class="module ">
-						<a href="../../../re/math/rect_ext.html">rect_ext</a>
+						<a href="../../../re/math/funcs.html">funcs</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../re/math/raytypes.html">raytypes</a>
 					</div>
 				</li>
 				<li>
@@ -258,6 +263,11 @@ $('#symbolSearchPane').show();</script>
 				</li>
 				<li>
 					<div class="module ">
+						<a href="../../../re/ng/diag/fps_counter.html">fps_counter</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
 						<a href="../../../re/ng/diag/inspector.html">inspector</a>
 					</div>
 				</li>
@@ -306,7 +316,7 @@ $('#symbolSearchPane').show();</script>
 				</li>
 				<li>
 					<div class="module ">
-						<a href="../../../re/phys/nudge.html">nudge</a>
+						<a href="../../../re/phys/rigid3d.html">rigid3d</a>
 					</div>
 				</li>
 			</ul>
@@ -339,6 +349,11 @@ $('#symbolSearchPane').show();</script>
 				<li>
 					<div class="module ">
 						<a href="../../../re/util/cache.html">cache</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../re/util/dlib.html">dlib</a>
 					</div>
 				</li>
 				<li>
@@ -398,7 +413,8 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Struct Transform</h1><p></p>
+			<h1>Struct Transform</h1><p>represents an object transform in both 2d and 3d space
+</p>
 			<div class="prototype">
 				<code class="lang-d">
 					<div class="single-prototype">
@@ -416,9 +432,37 @@ $('#symbolSearchPane').show();</script>
 					</tr>
 					<tr>
 						<td>
+							<a href="../../../re/math/transform/Transform.axis_angle.html" class="public property"><code>axis_angle</code></a><span class="tableEntryAnnotation">[get]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><a href="../../../re/math/raytypes/AxisAngle.html"><span class="typ">AxisAngle</span></a></code></td><td>gets orientation as an axis angle
+</td>
+					</tr>
+					<tr>
+						<td>
 							<a href="../../../re/math/transform/Transform.local_to_world_transform.html" class="public property"><code>local_to_world_transform</code></a><span class="tableEntryAnnotation">[get]</span>
 						</td>
 						<td class="typecol"><code class="prettyprint lang-d"><span class="pln">raylib<wbr/></span><span class="pun">.</span><span class="typ">Matrix4</span></code></td><td>gets local-to-world transform
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/math/transform/Transform.orientation.html" class="public property"><code>orientation</code></a><span class="tableEntryAnnotation">[get]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="pln">raylib<wbr/></span><span class="pun">.</span><span class="typ">Vector4</span></code></td><td>gets orientation quaternion
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/math/transform/Transform.orientation.html" class="public property"><code>orientation</code></a><span class="tableEntryAnnotation">[set]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="pln">raylib<wbr/></span><span class="pun">.</span><span class="typ">Vector4</span></code></td><td>sets orientation quaternion
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/math/transform/Transform.orientation.html" class="public property"><code>orientation</code></a><span class="tableEntryAnnotation">[set]</span>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="pln">raylib<wbr/></span><span class="pun">.</span><span class="typ">Vector3</span></code></td><td>sets orientation quaternion from euler angles
 </td>
 					</tr>
 					<tr>
@@ -451,16 +495,16 @@ $('#symbolSearchPane').show();</script>
 					</tr>
 					<tr>
 						<td>
-							<a href="../../../re/math/transform/Transform.rotation.html" class="public property"><code>rotation</code></a><span class="tableEntryAnnotation">[set]</span>
+							<a href="../../../re/math/transform/Transform.rotation_z.html" class="public property"><code>rotation_z</code></a><span class="tableEntryAnnotation">[get]</span>
 						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>sets Z-axis rotation
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>gets Z-axis rotation
 </td>
 					</tr>
 					<tr>
 						<td>
-							<a href="../../../re/math/transform/Transform.rotation.html" class="public property"><code>rotation</code></a><span class="tableEntryAnnotation">[get]</span>
+							<a href="../../../re/math/transform/Transform.rotation_z.html" class="public property"><code>rotation_z</code></a><span class="tableEntryAnnotation">[set]</span>
 						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>gets Z-axis rotation
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">float</span></code></td><td>sets Z-axis rotation
 </td>
 					</tr>
 					<tr>
