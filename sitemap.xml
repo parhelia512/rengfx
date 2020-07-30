@@ -706,6 +706,7 @@
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.max_collisions.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.pos_correction_iterations.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.raycast.html</loc></url>
+<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.raycast_from.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.setup.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.static_body_count.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.update.html</loc></url>

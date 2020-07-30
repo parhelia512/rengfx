@@ -497,6 +497,7 @@ var symbols = [
 {name: 're.phys.rigid3d.PhysicsManager.max_collisions', kind: "variabledeclaration", path: './re/phys/rigid3d/PhysicsManager.max_collisions.html', attributes: []},
 {name: 're.phys.rigid3d.PhysicsManager.pos_correction_iterations', kind: "variabledeclaration", path: './re/phys/rigid3d/PhysicsManager.pos_correction_iterations.html', attributes: []},
 {name: 're.phys.rigid3d.PhysicsManager.raycast', kind: "functiondeclaration", path: './re/phys/rigid3d/PhysicsManager.raycast.html', attributes: []},
+{name: 're.phys.rigid3d.PhysicsManager.raycast_from', kind: "functiondeclaration", path: './re/phys/rigid3d/PhysicsManager.raycast_from.html', attributes: []},
 {name: 're.phys.rigid3d.PhysicsManager.setup', kind: "functiondeclaration", path: './re/phys/rigid3d/PhysicsManager.setup.html', attributes: ["override"]},
 {name: 're.phys.rigid3d.PhysicsManager.static_body_count', kind: "functiondeclaration", path: './re/phys/rigid3d/PhysicsManager.static_body_count.html', attributes: ["property"]},
 {name: 're.phys.rigid3d.PhysicsManager.update', kind: "functiondeclaration", path: './re/phys/rigid3d/PhysicsManager.update.html', attributes: ["override"]},

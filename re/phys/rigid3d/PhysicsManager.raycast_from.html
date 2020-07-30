@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Variable RaycastResult.collider</title>
+		<title>Function PhysicsManager.raycast_from</title>
 		<link rel="stylesheet" type="text/css" href="../../../styles/ddox.css"/>
 		<link rel="stylesheet" href="../../../prettify/prettify.css" type="text/css"/>
 		<script type="text/javascript" src="../../../scripts/jquery.js">/**/</script><script type="text/javascript" src="../../../scripts/ddox.js">/**/</script>
@@ -418,24 +418,23 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Variable RaycastResult.collider</h1><p></p>
+			<h1>Function PhysicsManager.raycast_from</h1><p>raycast from a physics body in a certain direction, excluding the source body
+</p>
 			<div class="prototype">
 				<code class="lang-d">
 					<div class="single-prototype">
-			<span class="kwd">struct</span> <a href="../../../re/phys/rigid3d/RaycastResult.html"><span class="typ">RaycastResult</span></a>
+			<span class="pln">std<wbr/></span><span class="pun">.</span><span class="pln">typecons<wbr/></span><span class="pun">.</span><span class="typ">Nullable</span>!(re.phys.rigid3d.RaycastResult) <span class="pln">raycast_from</span>
+			<span class="pun">(</span>
 			<br/>
-			<span class="pun">
-				{
-				<br/>
-			</span>
-			&nbsp;&nbsp;<span class="com">// ...</span>
+			&nbsp;&nbsp;<a href="../../../re/phys/rigid3d/PhysicsBody.html"><span class="typ">PhysicsBody</span></a> <span class="pln">source</span><span class="pun">,</span>
 			<br/>
-			&nbsp;&nbsp;<span class="pln">std<wbr/></span><span class="pun">.</span><span class="pln">typecons<wbr/></span><span class="pun">.</span><span class="typ">Nullable</span>!(re.phys.collider.Collider) <span class="pln">collider</span>
-			<span class="pun">;</span>
+			&nbsp;&nbsp;<span class="pln">raylib<wbr/></span><span class="pun">.</span><span class="typ">Vector3</span> <span class="pln">offset</span><span class="pun">,</span>
 			<br/>
-			&nbsp;&nbsp;<span class="com">// ...</span>
+			&nbsp;&nbsp;<span class="pln">raylib<wbr/></span><span class="pun">.</span><span class="typ">Vector3</span> <span class="pln">direction</span><span class="pun">,</span>
 			<br/>
-			<span class="pun">}</span>
+			&nbsp;&nbsp;<span class="typ">float</span> <span class="pln">dist</span>
+			<br/>
+			<span class="pun">)</span><span class="pun">;</span>
 					</div>
 				</code>
 			</div>
