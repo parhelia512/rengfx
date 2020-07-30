@@ -68,6 +68,22 @@ $('#symbolSearchPane').show();</script>
 					</div>
 			<ul class="tree-view">
 				<li class="tree-view collapsed">
+					<div class="package ">lighting
+					</div>
+			<ul class="tree-view">
+				<li>
+					<div class="module ">
+						<a href="../../../re/gfx/lighting/rlights.html">rlights</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../re/gfx/lighting/scene_lights.html">scene_lights</a>
+					</div>
+				</li>
+			</ul>
+				</li>
+				<li class="tree-view collapsed">
 					<div class="package ">shapes
 					</div>
 			<ul class="tree-view">
@@ -522,12 +538,31 @@ $('#symbolSearchPane').show();</script>
 					</tr>
 					<tr>
 						<td>
+							<a href="../../../re/ng/scene/Scene.add_manager.html" class="public">
+								<code>add_manager</code>
+							</a>
+							<span class="tableEntryAnnotation">(manager)</span>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>
 							<a href="../../../re/ng/scene/Scene.begin.html" class="public">
 								<code>begin</code>
 							</a>
 							<span class="tableEntryAnnotation">()</span>
 						</td>
 						<td>called internally on scene creation
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/ng/scene/Scene.create_entity.html" class="public">
+								<code>create_entity</code>
+							</a>
+							<span class="tableEntryAnnotation">(name)</span>
+						</td>
+						<td>create an entity given a name
 </td>
 					</tr>
 					<tr>
@@ -548,16 +583,6 @@ $('#symbolSearchPane').show();</script>
 							<span class="tableEntryAnnotation">(name, pos)</span>
 						</td>
 						<td>create an entity given a name and a 3d position
-</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/ng/scene/Scene.create_entity.html" class="public">
-								<code>create_entity</code>
-							</a>
-							<span class="tableEntryAnnotation">(name)</span>
-						</td>
-						<td>create an entity given a name
 </td>
 					</tr>
 					<tr>
@@ -615,7 +640,7 @@ $('#symbolSearchPane').show();</script>
 							</a>
 							<span class="tableEntryAnnotation">()</span>
 						</td>
-						<td>called internally to update ecs
+						<td>called internally to update ecs. can be overridden, but super.update() must be called.
 </td>
 					</tr>
 					<tr>
@@ -626,6 +651,16 @@ $('#symbolSearchPane').show();</script>
 							<span class="tableEntryAnnotation">()</span>
 						</td>
 						<td>called at the start of the scene
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../re/ng/scene/Scene.render_hook.html" class="protected">
+								<code>render_hook</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>may optionally be used to render global things from a scene
 </td>
 					</tr>
 					<tr>

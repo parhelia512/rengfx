@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Function color_rgb</title>
+		<title>color_rgb - multiple declarations</title>
 		<link rel="stylesheet" type="text/css" href="../../../styles/ddox.css"/>
 		<link rel="stylesheet" href="../../../prettify/prettify.css" type="text/css"/>
 		<script type="text/javascript" src="../../../scripts/jquery.js">/**/</script><script type="text/javascript" src="../../../scripts/ddox.js">/**/</script>
@@ -67,6 +67,22 @@ $('#symbolSearchPane').show();</script>
 						<a href="../../../re/gfx.html">gfx</a>
 					</div>
 			<ul class="tree-view">
+				<li class="tree-view collapsed">
+					<div class="package ">lighting
+					</div>
+			<ul class="tree-view">
+				<li>
+					<div class="module ">
+						<a href="../../../re/gfx/lighting/rlights.html">rlights</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../re/gfx/lighting/scene_lights.html">scene_lights</a>
+					</div>
+				</li>
+			</ul>
+				</li>
 				<li class="tree-view collapsed">
 					<div class="package ">shapes
 					</div>
@@ -413,7 +429,21 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Function color_rgb</h1><p>gets a color from rgb
+			<h1>color_rgb - multiple declarations</h1>
+			<nav class="page-nav">
+				<ul>
+					<li>
+						<a href="#0">
+							Function <code>color_rgb</code>
+						</a>
+					</li>
+					<li>
+						<a href="#1">
+							Function <code>color_rgb</code>
+						</a>
+					</li>
+				</ul>
+			</nav><h2 id="0">Function color_rgb</h2><p>gets a color from rgb
 </p>
 			<div class="prototype">
 				<code class="lang-d">
@@ -442,6 +472,21 @@ $('#symbolSearchPane').show();</script>
 			&nbsp;&nbsp;<span class="typ">ubyte</span> <span class="pln">b</span><span class="pun">,</span>
 			<br/>
 			&nbsp;&nbsp;<span class="typ">ubyte</span> <span class="pln">a</span> <span class="pun">=</span> <span class="kwd">cast</span><span class="pun">(</span><span class="typ">ubyte</span><span class="pun">)</span><span class="lit">255u</span>
+			<br/>
+			<span class="pun">)</span><span class="pun">;</span>
+					</div>
+				</code>
+			</div>
+			
+			<h2 id="1">Function color_rgb</h2><p>gets a color from rgb in a single value
+</p>
+			<div class="prototype">
+				<code class="lang-d">
+					<div class="single-prototype">
+			<span class="pln">raylib<wbr/></span><span class="pun">.</span><span class="typ">Color</span> <span class="pln">color_rgb</span>
+			<span class="pun">(</span>
+			<br/>
+			&nbsp;&nbsp;<span class="typ">ubyte</span> <span class="pln">v</span>
 			<br/>
 			<span class="pun">)</span><span class="pun">;</span>
 					</div>
