@@ -83,7 +83,6 @@ var symbols = [
 {name: 're.gfx.lighting.rlights.Light.targetLoc', kind: "variabledeclaration", path: './re/gfx/lighting/rlights/Light.targetLoc.html', attributes: []},
 {name: 're.gfx.lighting.rlights.Light.type', kind: "variabledeclaration", path: './re/gfx/lighting/rlights/Light.type.html', attributes: []},
 {name: 're.gfx.lighting.rlights.Light.typeLoc', kind: "variabledeclaration", path: './re/gfx/lighting/rlights/Light.typeLoc.html', attributes: []},
-{name: 're.gfx.lighting.rlights.light_count', kind: "variabledeclaration", path: './re/gfx/lighting/rlights/light_count.html', attributes: []},
 {name: 're.gfx.lighting.rlights.LightType', kind: "enumdeclaration", path: './re/gfx/lighting/rlights/LightType.html', attributes: []},
 {name: 're.gfx.lighting.rlights.LightType.LIGHT_DIRECTIONAL', kind: "enummemberdeclaration", path: './re/gfx/lighting/rlights/LightType.html#LIGHT_DIRECTIONAL', attributes: []},
 {name: 're.gfx.lighting.rlights.LightType.LIGHT_POINT', kind: "enummemberdeclaration", path: './re/gfx/lighting/rlights/LightType.html#LIGHT_POINT', attributes: []},
