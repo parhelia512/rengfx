@@ -115,6 +115,7 @@
 <url><loc>http://127.0.0.1/re/gfx/lighting/scene_lights/SceneLightManager.this.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/lighting/scene_lights/SceneLightManager.update.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.scene.html</loc></url>
+<url><loc>http://127.0.0.1/re/ng/manager/Manager.setup.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/shapes/cube.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/shapes/cube/Cube.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/shapes/cube/Cube.size.html</loc></url>
@@ -197,6 +198,7 @@
 <url><loc>http://127.0.0.1/re/gfx/effect/Effect.set_shader_var.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/effect/Effect.set_shader_var_imm.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/effect/Effect.shader.html</loc></url>
+<url><loc>http://127.0.0.1/re/gfx/lighting.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/postprocessor.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/postprocessor/PostProcessor.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/postprocessor/PostProcessor.buffer.html</loc></url>
@@ -530,6 +532,7 @@
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.destroy.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.scene.html</loc></url>
+<url><loc>http://127.0.0.1/re/ng/manager/Manager.setup.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.update.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/scene/Scene.html</loc></url>
@@ -708,20 +711,12 @@
 <url><loc>http://127.0.0.1/re/ecs/component/Component.entity.html</loc></url>
 <url><loc>http://127.0.0.1/re/ecs/component/Component.transform.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.allocate.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.body_count.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.destroy.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.dynamic_body_count.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.get_current.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.install.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.is_installed.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.max_collisions.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.register.html</loc></url>
+<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.setup.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.static_body_count.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.sync_colliders.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.sync_properties.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.sync_transform.html</loc></url>
-<url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.unregister.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/PhysicsManager.update.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.scene.html</loc></url>
 <url><loc>http://127.0.0.1/re/phys/rigid3d/StaticBody.html</loc></url>
@@ -812,6 +807,7 @@
 <url><loc>http://127.0.0.1/re/util/tweens/tween_manager/TweenManager.update.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.destroy.html</loc></url>
 <url><loc>http://127.0.0.1/re/ng/manager/Manager.scene.html</loc></url>
+<url><loc>http://127.0.0.1/re/ng/manager/Manager.setup.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/cache.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/cache/KeyedCache.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/cache/KeyedCache._cache.html</loc></url>
@@ -887,6 +883,7 @@
 <url><loc>http://127.0.0.1/re/content/ContentManager.this.html</loc></url>
 <url><loc>http://127.0.0.1/re/core.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.html</loc></url>
+<url><loc>http://127.0.0.1/re/core/Core.add_manager.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.content.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.debug_render.html</loc></url>
 <url><loc>http://127.0.0.1/re/core/Core.default_filter_mode.html</loc></url>

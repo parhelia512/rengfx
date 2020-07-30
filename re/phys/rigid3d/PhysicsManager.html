@@ -68,7 +68,8 @@ $('#symbolSearchPane').show();</script>
 					</div>
 			<ul class="tree-view">
 				<li class="tree-view collapsed">
-					<div class="package ">lighting
+					<div class="package ">
+						<a href="../../../re/gfx/lighting.html">lighting</a>
 					</div>
 			<ul class="tree-view">
 				<li>
@@ -451,7 +452,8 @@ $('#symbolSearchPane').show();</script>
 						<td>
 							<a href="../../../re/phys/rigid3d/PhysicsManager.max_collisions.html" class="public"><code>max_collisions</code></a>
 						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td><td></td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td><td>the maximum number of collisions to support in this world
+</td>
 					</tr>
 					<tr>
 						<td>
@@ -472,19 +474,22 @@ $('#symbolSearchPane').show();</script>
 						<td>
 							<a href="../../../re/phys/rigid3d/PhysicsManager.body_count.html" class="public property"><code>body_count</code></a><span class="tableEntryAnnotation">[get]</span>
 						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">ulong</span></code></td><td></td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">ulong</span></code></td><td>the total number of bodies in this physics world
+</td>
 					</tr>
 					<tr>
 						<td>
 							<a href="../../../re/phys/rigid3d/PhysicsManager.dynamic_body_count.html" class="public property"><code>dynamic_body_count</code></a><span class="tableEntryAnnotation">[get]</span>
 						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">ulong</span></code></td><td></td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">ulong</span></code></td><td>the number of dynamic bodies in this physics world
+</td>
 					</tr>
 					<tr>
 						<td>
 							<a href="../../../re/phys/rigid3d/PhysicsManager.static_body_count.html" class="public property"><code>static_body_count</code></a><span class="tableEntryAnnotation">[get]</span>
 						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">ulong</span></code></td><td></td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">ulong</span></code></td><td>the number of static bodies in this physics world
+</td>
 					</tr>
 				</table>
 			</section>
@@ -493,16 +498,6 @@ $('#symbolSearchPane').show();</script>
 					<col class="caption"/>
 					<tr>
 						<th>Name</th><th>Description</th>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.allocate.html" class="public">
-								<code>allocate</code>
-							</a>
-							<span class="tableEntryAnnotation">()</span>
-						</td>
-						<td>allocate resources to run physics
-</td>
 					</tr>
 					<tr>
 						<td>
@@ -516,80 +511,12 @@ $('#symbolSearchPane').show();</script>
 					</tr>
 					<tr>
 						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.get_current.html" class="public">
-								<code>get_current</code>
+							<a href="../../../re/phys/rigid3d/PhysicsManager.setup.html" class="public">
+								<code>setup</code>
 							</a>
-							<span class="tableEntryAnnotation">(scene)</span>
+							<span class="tableEntryAnnotation">()</span>
 						</td>
-						<td>get the nudge manager in a scene
-</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.install.html" class="public">
-								<code>install</code>
-							</a>
-							<span class="tableEntryAnnotation">(scene)</span>
-						</td>
-						<td>enable a nudge manager in a scene
-</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.is_installed.html" class="public">
-								<code>is_installed</code>
-							</a>
-							<span class="tableEntryAnnotation">(scene)</span>
-						</td>
-						<td>checks whether this scene has a nudge manager installed
-</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.register.html" class="public">
-								<code>register</code>
-							</a>
-							<span class="tableEntryAnnotation">(body_comp)</span>
-						</td>
-						<td>registers a body
-</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.sync_colliders.html" class="public">
-								<code>sync_colliders</code>
-							</a>
-							<span class="tableEntryAnnotation">(body_comp)</span>
-						</td>
-						<td>sync a body's colliders in the physics engine, necessary when shapes change
-</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.sync_properties.html" class="public">
-								<code>sync_properties</code>
-							</a>
-							<span class="tableEntryAnnotation">(body_comp)</span>
-						</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.sync_transform.html" class="public">
-								<code>sync_transform</code>
-							</a>
-							<span class="tableEntryAnnotation">(body_comp)</span>
-						</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/phys/rigid3d/PhysicsManager.unregister.html" class="public">
-								<code>unregister</code>
-							</a>
-							<span class="tableEntryAnnotation">(body_comp)</span>
-						</td>
-						<td>unregisters a body
+						<td>performs any setup needed for this manager
 </td>
 					</tr>
 					<tr>
