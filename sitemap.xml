@@ -157,6 +157,7 @@
 <url><loc>http://127.0.0.1/re/gfx/effect/Effect.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/effect/Effect.color.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/effect/Effect.set_shader_var.html</loc></url>
+<url><loc>http://127.0.0.1/re/gfx/effect/Effect.set_shader_var_imm.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/effect/Effect.shader.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/postprocessor.html</loc></url>
 <url><loc>http://127.0.0.1/re/gfx/postprocessor/PostProcessor.html</loc></url>

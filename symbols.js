@@ -120,6 +120,7 @@ var symbols = [
 {name: 're.gfx.effect.Effect', kind: "structdeclaration", path: './re/gfx/effect/Effect.html', attributes: []},
 {name: 're.gfx.effect.Effect.color', kind: "variabledeclaration", path: './re/gfx/effect/Effect.color.html', attributes: []},
 {name: 're.gfx.effect.Effect.set_shader_var', kind: "functiondeclaration", path: './re/gfx/effect/Effect.set_shader_var.html', attributes: []},
+{name: 're.gfx.effect.Effect.set_shader_var_imm', kind: "functiondeclaration", path: './re/gfx/effect/Effect.set_shader_var_imm.html', attributes: []},
 {name: 're.gfx.effect.Effect.shader', kind: "variabledeclaration", path: './re/gfx/effect/Effect.shader.html', attributes: []},
 {name: 're.gfx.postprocessor', kind: "module", path: './re/gfx/postprocessor.html', attributes: []},
 {name: 're.gfx.postprocessor.PostProcessor', kind: "classdeclaration", path: './re/gfx/postprocessor/PostProcessor.html', attributes: []},
