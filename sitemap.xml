@@ -371,6 +371,7 @@
 <url><loc>http://127.0.0.1/re/math/transform/Transform.scale.html</loc></url>
 <url><loc>http://127.0.0.1/re/math/transform/Transform.scale2.html</loc></url>
 <url><loc>http://127.0.0.1/re/math/transform/Transform.scale2.html</loc></url>
+<url><loc>http://127.0.0.1/re/math/transform/Transform.toString.html</loc></url>
 <url><loc>http://127.0.0.1/re/math/transform/Transform.world_to_local_transform.html</loc></url>
 <url><loc>http://127.0.0.1/re/math/vector_ext.html</loc></url>
 <url><loc>http://127.0.0.1/re/math/vector_ext/LengthSquared.html</loc></url>
@@ -839,6 +840,10 @@
 <url><loc>http://127.0.0.1/re/util/dual_map/DualMap.remove.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/dual_map/DualMap.remove.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/dual_map/DualMap.set.html</loc></url>
+<url><loc>http://127.0.0.1/re/util/format.html</loc></url>
+<url><loc>http://127.0.0.1/re/util/format/format_vec.html</loc></url>
+<url><loc>http://127.0.0.1/re/util/format/format_vec.html</loc></url>
+<url><loc>http://127.0.0.1/re/util/format/format_vec.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/interop.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/interop/c_str.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/logger.html</loc></url>
