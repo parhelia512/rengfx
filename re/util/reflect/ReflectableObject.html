@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Class Component</title>
+		<title>Class ReflectableObject</title>
 		<link rel="stylesheet" type="text/css" href="../../../styles/ddox.css"/>
 		<link rel="stylesheet" href="../../../prettify/prettify.css" type="text/css"/>
 		<script type="text/javascript" src="../../../scripts/jquery.js">/**/</script><script type="text/javascript" src="../../../scripts/ddox.js">/**/</script>
@@ -25,13 +25,13 @@ $('#symbolSearchPane').show();</script>
 						<a href="../../../re.html">re</a>
 					</div>
 			<ul class="tree-view">
-				<li class="tree-view ">
+				<li class="tree-view collapsed">
 					<div class="package ">
 						<a href="../../../re/ecs.html">ecs</a>
 					</div>
 			<ul class="tree-view">
 				<li>
-					<div class="module selected">
+					<div class="module ">
 						<a href="../../../re/ecs/component.html">component</a>
 					</div>
 				</li>
@@ -326,7 +326,7 @@ $('#symbolSearchPane').show();</script>
 				</li>
 			</ul>
 				</li>
-				<li class="tree-view collapsed">
+				<li class="tree-view ">
 					<div class="package ">util
 					</div>
 			<ul class="tree-view">
@@ -377,7 +377,7 @@ $('#symbolSearchPane').show();</script>
 					</div>
 				</li>
 				<li>
-					<div class="module ">
+					<div class="module selected">
 						<a href="../../../re/util/reflect.html">reflect</a>
 					</div>
 				</li>
@@ -418,76 +418,17 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Class Component</h1><p>the composable unit of functionality
+			<h1>Class ReflectableObject</h1><p>a base class for all objects that can be reflected upon
 </p>
 			<div class="prototype">
 				<code class="lang-d">
 					<div class="single-prototype">
-			<span class="kwd">class</span> <span class="typ">Component</span>
-			<br>&nbsp;&nbsp;: <a href="../../../re/util/reflect/ReflectableObject.html"><span class="typ">ReflectableObject</span></a>
+			<span class="kwd">class</span> <span class="typ">ReflectableObject</span>
 			<span class="pun">;</span>
 					</div>
 				</code>
 			</div>
 			
-			<section><h2>Fields</h2>
-				<table>
-					<col class="caption"/>
-					<tr>
-						<th>Name</th><th>Type</th><th>Description</th>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/ecs/component/Component.entity.html" class="public"><code>entity</code></a>
-						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><a href="../../../re/ecs/entity/Entity.html"><span class="typ">Entity</span></a></code></td><td>owner entity
-</td>
-					</tr>
-				</table>
-			</section>
-			<section><h2>Properties</h2>
-				<table>
-					<col class="caption"/>
-					<tr>
-						<th>Name</th><th>Type</th><th>Description</th>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/ecs/component/Component.transform.html" class="public property"><code>transform</code></a><span class="tableEntryAnnotation">[get]</span>
-						</td>
-						<td class="typecol"><code class="prettyprint lang-d"><a href="../../../re/math/transform/Transform.html"><span class="typ">Transform</span></a></code></td><td>forward to entity.transform
-</td>
-					</tr>
-				</table>
-			</section>
-			<section><h2>Methods</h2>
-				<table>
-					<col class="caption"/>
-					<tr>
-						<th>Name</th><th>Description</th>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/ecs/component/Component.destroy.html" class="public">
-								<code>destroy</code>
-							</a>
-							<span class="tableEntryAnnotation">()</span>
-						</td>
-						<td>release resources and clean up
-</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="../../../re/ecs/component/Component.setup.html" class="public">
-								<code>setup</code>
-							</a>
-							<span class="tableEntryAnnotation">()</span>
-						</td>
-						<td>initialize the component. entity is already set.
-</td>
-					</tr>
-				</table>
-			</section>
 			
 			<footer>
 				<table class="license-info">

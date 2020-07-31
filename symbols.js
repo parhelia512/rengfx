@@ -631,6 +631,7 @@ var symbols = [
 {name: 're.util.logger.Logger.write_line', kind: "functiondeclaration", path: './re/util/logger/Logger.write_line.html', attributes: []},
 {name: 're.util.reflect', kind: "module", path: './re/util/reflect.html', attributes: []},
 {name: 're.util.reflect.Reflect', kind: "templatedeclaration", path: './re/util/reflect/Reflect.html', attributes: []},
+{name: 're.util.reflect.ReflectableObject', kind: "classdeclaration", path: './re/util/reflect/ReflectableObject.html', attributes: []},
 {name: 're.util.rng', kind: "module", path: './re/util/rng.html', attributes: []},
 {name: 're.util.rng.Rng', kind: "classdeclaration", path: './re/util/rng/Rng.html', attributes: []},
 {name: 're.util.rng.Rng.next', kind: "functiondeclaration", path: './re/util/rng/Rng.next.html', attributes: ["static"]},

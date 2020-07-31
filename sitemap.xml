@@ -863,6 +863,7 @@
 <url><loc>http://127.0.0.1/re/util/logger/Logger.write_line.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/reflect.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/reflect/Reflect.html</loc></url>
+<url><loc>http://127.0.0.1/re/util/reflect/ReflectableObject.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/rng.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/rng/Rng.html</loc></url>
 <url><loc>http://127.0.0.1/re/util/rng/Rng.next.html</loc></url>
